@@ -1,5 +1,5 @@
 class Televisao():
-    def __init__(self, min, max):
+    def __init__(self, min=2, max=14):
         self.tamanho = 0
         self.marca = ""
         self.canal = min
